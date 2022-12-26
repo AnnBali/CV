@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #a19595;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    /*font: normal 16px 'Roboto',
+    sans-serif;*/
+
+    /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: rgba(255, 0, 21, 0.863);
+}
+a:visited {
+    color: #05193f;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 15px 10px 18px rgba(0, 0, 0, 0.25);
+}
+.info { 
+    display: flex;
+    margin-bottom: 20px;
+}
+@media (max-widht: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+    
+}
+
+.info p {
+    color: #050e1f;
+    margin: 0%;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 42px; */
+}
+/* Box model */
+.container {
+   max-width: 750px; 
+   margin: auto;
+   padding-top: 30px
+   }
+/* .social {
+background: green;
+/* padding: 15px; */
+/* padding: 15px 20px; */
+/* padding: 15px 20px 30px 35 px; */
+/* padding-top: 10px;
+padding-right: 12px;
+padding-bottom: 14px;
+padding-left: 15px; */
+
+
+/* margin: 15px 20px; */
+/* margin: 15px 20px 30px 35px; */
+/* margin: 20px */;
+
+/* border: 5px solid red;
+border-bottom-style: dotted;
+border-top-width: 15px;
+border-right-color:blue ;
+} */
+/* .box-model > div {
+    float: left;
+    background-color: #000;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+} 
+ */
+
+.bg-yellow {
+    background: #eadb8f;
+  }
+  .bg-yellow {
+    background: #eadb8f;
+  }
+  
+  .bg-green {
+    background: #9ee9a4;
+  }
+  
+  .bg-red {
+    background: #ebd5d5;
+  }
+  
+  .card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .card h2 {
+      margin-bottom: 10px;
+  }
+  .list {
+      padding: 0 20px;
+  }
+  .list li {
+      color: #86898f;
+      margin-bottom: 10px;
+    }
+.table {
+    width: 100%;
+
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #4e041a;
+}
+/* .table tr:nth-child(odd) {
+    background-color: red;
+} */
+
+.link-list li {
+   list-style: none; 
+   padding-bottom: 5px;
+   border-bottom: 1px solid #ccc;
+   
+}
+.contact h2{
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #2d1f53;
+}
+.form-group input,
+.form-group textarea {
+width: 100%;
+box-sizing: border-box;
+border: none;
+background: transparent;
+border-bottom: 1px solid #ccc;
+color: #000;
+padding: 15px 0 10px;
+outline: none;
+font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .form-group :first-child {
+margin-right: 20px;
+}
+.row > .form-group :last-child {
+ margin-right: 20px;
+}
+.bth {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.bth :hover {
+    opacity: 0.9;
+}
+/* Position */
+
+/* .position {
+position: relative;
+  border: 4px solid black;
+  margin-top: 40px;
+  padding: 20px;
+ 
+}
+.box {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+
+  left: 0;
+  width: 10%;
+  height: 50px;
+  background:lightcoral;
+}  */
